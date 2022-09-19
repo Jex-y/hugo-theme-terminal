@@ -13,7 +13,11 @@
 .header {
   display: flex;
   flex-direction: column;
-  position: relative;
+  position: absolute;
+  width: 100vw;
+  right: 0;
+  top: 0;
+  padding: 2rem;
 
   @media print {
     display: none;
